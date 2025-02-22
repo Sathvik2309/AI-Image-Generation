@@ -16,12 +16,12 @@ Download Stable Diffusion Model
 Get a Stable Diffusion .safetensors model from Hugging Face or another source.
 Place it inside the ComfyUI/models/checkpoints/ directory.
 Run ComfyUI
-
+HOW TO RUN:
 Navigate to the ComfyUI directory.
-Run the following command to start the server:
-python main.py
-Once running, access the UI at:
-http://127.0.0.1:8188
+if you have a NVIDIA gpu:
+run_nvidia_gpu.bat
+To run it in slow CPU mode:
+run_cpu.bat
 🚀 Generating Images
 Open the ComfyUI interface.
 Enter your desired prompt in the text box.
@@ -33,5 +33,5 @@ Easy setup with ComfyUI.
 Customizable model support.
 Works locally without an internet connection.
 🔗 Useful Links
-ComfyUI GitHub
-Stable Diffusion Models
+  https://github.com/comfyanonymous/ComfyUI
+  https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors
