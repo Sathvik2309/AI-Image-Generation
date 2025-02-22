@@ -1,12 +1,13 @@
 #Image Generator using ComfyUI & Stable Diffusion
+
 ##📌 Overview
 This project utilizes ComfyUI and Stable Diffusion to generate AI-powered images based on text prompts.
 It provides a powerful yet simple way to generate high-quality images directly from the console.
 
-##🛠️ Setup & Installation
+##Setup & Installation
 Follow these steps to set up the project on your local machine:
 
-Download & Install ComfyUI
+##Download & Install ComfyUI
 
 Download ComfyUI from the official GitHub repository.
 Extract the files and navigate to the ComfyUI folder.
